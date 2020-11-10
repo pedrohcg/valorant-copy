@@ -243,6 +243,35 @@ a.nav-link{
 
 /* FRAME 2 END */
 
+/* FRAME 3 START */
+
+.frame-3{
+  background-color: #ff4654;
+}
+
+.character{
+  width: 14.125rem;
+  height: 19.3125rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.gun-sprite{
+  position: absolute;
+}
+
+@keyframes moveSpritesheet{
+  from{
+    transform: translate3d(0, 0, 0);
+  }
+  to{
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+
+/*FRAME 3 END */
+
 @media (max-width: 1000px){
   .btn-div{
     width: 100%;
